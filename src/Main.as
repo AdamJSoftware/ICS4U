@@ -18,7 +18,7 @@ package
 			var myLoader:Loader = new Loader();
 			myLoader.scaleX = .1;
 			myLoader.scaleY = .1;
-			myLoader.load(new URLRequest('files\\hello-clown-small.jpg'));
+			myLoader.load(new URLRequest('files\\batman-icon.png'));
 			addChild(myLoader);
 			var ogx:Number = myLoader.width;
 			var ogy:Number = myLoader.height;
