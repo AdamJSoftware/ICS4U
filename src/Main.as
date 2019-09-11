@@ -10,11 +10,9 @@ package
 	import flash.external.ExternalInterface;
 	import flash.events.Event;
 
-	public class Main extends Sprite
-	{
+	public class Main extends Sprite{
 		
-		public function Main()
-		{
+		public function Main(){
 			var myLoader:Loader = new Loader();
 			myLoader.scaleX = .1;
 			myLoader.scaleY = .1;
