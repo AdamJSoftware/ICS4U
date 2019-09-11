@@ -1,0 +1,15 @@
+{
+  "config": "air",
+  "compilerOptions": {
+    "output": "bin/Main.swf"
+  },
+  "application": "src/Main-app.xml",
+  "files": ["src/Main.as"]
+  //   "airOptions": {
+  //     "output": "bin/Main.air",
+  //     "signingOptions": {
+  //       "storetype": "pkcs12",
+  //       "keystore": "path/to/certificate.p12"
+  //     }
+  //   }
+}
