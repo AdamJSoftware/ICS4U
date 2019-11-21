@@ -1,10 +1,10 @@
 {
   "config": "air",
   "compilerOptions": {
-    "output": "Travaux 6/bin/Main.swf"
+    "output": "Travaux 7/bin/Main.swf"
   },
-  "application": "Travaux 5/src/Main-app.xml",
-  "files": ["Travaux 6/src/Main.as"]
+  "application": "Travaux 7/src/Main-app.xml",
+  "files": ["Travaux 7/src/Main.as"]
   //   "airOptions": {
   //     "output": "bin/Main.air",
   //     "signingOptions": {

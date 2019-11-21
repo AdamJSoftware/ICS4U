@@ -1,7 +1,7 @@
 /* 	Nom du programmeur: Adam Jasniewicz
 	Date: Le 25 octobre 2019
 	Nom du fichier:  Main.as
-	Description:  Le programme calculent le resultats des exposants
+	Description:  Le programme calculent le resultats des exposants. Exposant négatif, nombre choisis -> 0. Exposant positif, 0 -> nombre choisis
 */
 
    
@@ -16,7 +16,6 @@ package {
 	import flash.events.Event;
 	import flash.text.TextFormatAlign;
 	import flash.text.TextFormat;
-	import flash.globalization.DateTimeFormatter;
 
 	public class Main extends Sprite {
 
