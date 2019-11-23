@@ -67,6 +67,12 @@ package {
 			myFormat.size = 20;
 			myFormat.align = TextFormatAlign.JUSTIFY;
 			myFormat.font = "Arial"
+
+			var myFormat2: TextFormat = new TextFormat();
+			myFormat.size = 25;
+			myFormat.align = TextFormatAlign.JUSTIFY;
+			myFormat.font = "Arial"
+
 			var myFormat3: TextFormat = new TextFormat();
 			myFormat3.size = 15;
 			myFormat3.align = TextFormatAlign.JUSTIFY;
@@ -89,11 +95,11 @@ package {
 			addChild(lblTitre);
 
 			// Ajout du titre et configuration de toutes ses propriétés à l'aide d'une fonction personnalisée
-			var restart: TextField = createCustomTextField(220, 330, 250, 40, "RECOMMENCER", myFormat4);
+			var restart: TextField = createCustomTextField(250, 330, 240, 30, "NOUVELLE RONDE", myFormat4);
 			// Configuration d'autres paramètres
 			restart.textColor = 0xFF0000;
 			restart.border = true;
-			restart.setTextFormat(myFormat4);
+			restart.setTextFormat(myFormat);
 			addChild(restart);
 
 			// Ajout du titre et configuration de toutes ses propriétés à l'aide d'une fonction personnalisée
@@ -104,10 +110,10 @@ package {
 			addChild(ai_text);
 
 			// Ajout du titre et configuration de toutes ses propriétés à l'aide d'une fonction personnalisée
-			var reset_text: TextField = createCustomTextField(30, 330, 110, 40, "RESET", myFormat4);
+			var reset_text: TextField = createCustomTextField(32, 330, 205, 30, "RECOMMENCER", myFormat2);
 			// Configuration d'autres paramètres
 			reset_text.border = true;
-			reset_text.setTextFormat(myFormat4);
+			reset_text.setTextFormat(myFormat);
 			addChild(reset_text);
 
 			// Organise les titres primaires dans un array
